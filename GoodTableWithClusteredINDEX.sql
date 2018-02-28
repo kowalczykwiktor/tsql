@@ -1,0 +1,1 @@
+CREATE TABLE table_name (Id int IDENTITY (1,1) NOT NULL CONSTRAINT PK_ID_table_name PRIMARY KEY CLUSTERED, Column2 varchar(max) NULL);
