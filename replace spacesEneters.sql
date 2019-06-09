@@ -1,0 +1,1 @@
+REPLACE(REPLACE(REPLACE(CAST(Company_Name AS VARCHAR(MAX)), CHAR(13), ''), CHAR(10), ''), '  ','') AS Company,
