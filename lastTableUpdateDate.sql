@@ -1,1 +1,1 @@
-SELECT last_user_updateFROM   sys.dm_db_index_usage_stats us       JOIN sys.tables t         ON t.object_id = us.object_idWHERE  database_id = db_id()       AND t.object_id = object_id('dbo.BCM_MED_PERSONS')
+SELECT last_user_updateFROM   sys.dm_db_index_usage_stats us       JOIN sys.tables t         ON t.object_id = us.object_idWHERE  database_id = db_id()       AND t.object_id = object_id('dbo.BCM_MED_PERSONS')
